@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9731CE318DE473F009A4A83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE218DE473F009A4A83 /* Foundation.framework */; };
+		A9731CE518DE473F009A4A83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE418DE473F009A4A83 /* CoreGraphics.framework */; };
+		A9731CE718DE473F009A4A83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE618DE473F009A4A83 /* UIKit.framework */; };
+		A9731CED18DE473F009A4A83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9731CEB18DE473F009A4A83 /* InfoPlist.strings */; };
+		A9731CEF18DE473F009A4A83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9731CEE18DE473F009A4A83 /* main.m */; };
+		A9731CF318DE473F009A4A83 /* pl7AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9731CF218DE473F009A4A83 /* pl7AppDelegate.m */; };
+		A9731CF618DE473F009A4A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9731CF418DE473F009A4A83 /* Main.storyboard */; };
+		A9731CF918DE473F009A4A83 /* pl7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9731CF818DE473F009A4A83 /* pl7ViewController.m */; };
+		A9731CFB18DE473F009A4A83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9731CFA18DE473F009A4A83 /* Images.xcassets */; };
+		A9731D0218DE473F009A4A83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731D0118DE473F009A4A83 /* XCTest.framework */; };
+		A9731D0318DE473F009A4A83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE218DE473F009A4A83 /* Foundation.framework */; };
+		A9731D0418DE473F009A4A83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE618DE473F009A4A83 /* UIKit.framework */; };
+		A9731D0C18DE473F009A4A83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9731D0A18DE473F009A4A83 /* InfoPlist.strings */; };
+		A9731D0E18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9731D0D18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9731D0518DE473F009A4A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9731CD718DE473F009A4A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9731CDE18DE473F009A4A83;
+			remoteInfo = PinlockScreen_iOS7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9731CDF18DE473F009A4A83 /* PinlockScreen_iOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinlockScreen_iOS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9731CE218DE473F009A4A83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9731CE418DE473F009A4A83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9731CE618DE473F009A4A83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9731CEA18DE473F009A4A83 /* PinlockScreen_iOS7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinlockScreen_iOS7-Info.plist"; sourceTree = "<group>"; };
+		A9731CEC18DE473F009A4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9731CEE18DE473F009A4A83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9731CF018DE473F009A4A83 /* PinlockScreen_iOS7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinlockScreen_iOS7-Prefix.pch"; sourceTree = "<group>"; };
+		A9731CF118DE473F009A4A83 /* pl7AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pl7AppDelegate.h; sourceTree = "<group>"; };
+		A9731CF218DE473F009A4A83 /* pl7AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pl7AppDelegate.m; sourceTree = "<group>"; };
+		A9731CF518DE473F009A4A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9731CF718DE473F009A4A83 /* pl7ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pl7ViewController.h; sourceTree = "<group>"; };
+		A9731CF818DE473F009A4A83 /* pl7ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pl7ViewController.m; sourceTree = "<group>"; };
+		A9731CFA18DE473F009A4A83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9731D0018DE473F009A4A83 /* PinlockScreen_iOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinlockScreen_iOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9731D0118DE473F009A4A83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9731D0918DE473F009A4A83 /* PinlockScreen_iOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinlockScreen_iOS7Tests-Info.plist"; sourceTree = "<group>"; };
+		A9731D0B18DE473F009A4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9731D0D18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinlockScreen_iOS7Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9731CDC18DE473F009A4A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731CE518DE473F009A4A83 /* CoreGraphics.framework in Frameworks */,
+				A9731CE718DE473F009A4A83 /* UIKit.framework in Frameworks */,
+				A9731CE318DE473F009A4A83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9731CFD18DE473F009A4A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731D0218DE473F009A4A83 /* XCTest.framework in Frameworks */,
+				A9731D0418DE473F009A4A83 /* UIKit.framework in Frameworks */,
+				A9731D0318DE473F009A4A83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9731CD618DE473F009A4A83 = {
+			isa = PBXGroup;
+			children = (
+				A9731CE818DE473F009A4A83 /* PinlockScreen_iOS7 */,
+				A9731D0718DE473F009A4A83 /* PinlockScreen_iOS7Tests */,
+				A9731CE118DE473F009A4A83 /* Frameworks */,
+				A9731CE018DE473F009A4A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9731CE018DE473F009A4A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9731CDF18DE473F009A4A83 /* PinlockScreen_iOS7.app */,
+				A9731D0018DE473F009A4A83 /* PinlockScreen_iOS7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9731CE118DE473F009A4A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9731CE218DE473F009A4A83 /* Foundation.framework */,
+				A9731CE418DE473F009A4A83 /* CoreGraphics.framework */,
+				A9731CE618DE473F009A4A83 /* UIKit.framework */,
+				A9731D0118DE473F009A4A83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9731CE818DE473F009A4A83 /* PinlockScreen_iOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				A9731CF118DE473F009A4A83 /* pl7AppDelegate.h */,
+				A9731CF218DE473F009A4A83 /* pl7AppDelegate.m */,
+				A9731CF418DE473F009A4A83 /* Main.storyboard */,
+				A9731CF718DE473F009A4A83 /* pl7ViewController.h */,
+				A9731CF818DE473F009A4A83 /* pl7ViewController.m */,
+				A9731CFA18DE473F009A4A83 /* Images.xcassets */,
+				A9731CE918DE473F009A4A83 /* Supporting Files */,
+			);
+			path = PinlockScreen_iOS7;
+			sourceTree = "<group>";
+		};
+		A9731CE918DE473F009A4A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9731CEA18DE473F009A4A83 /* PinlockScreen_iOS7-Info.plist */,
+				A9731CEB18DE473F009A4A83 /* InfoPlist.strings */,
+				A9731CEE18DE473F009A4A83 /* main.m */,
+				A9731CF018DE473F009A4A83 /* PinlockScreen_iOS7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9731D0718DE473F009A4A83 /* PinlockScreen_iOS7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9731D0D18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m */,
+				A9731D0818DE473F009A4A83 /* Supporting Files */,
+			);
+			path = PinlockScreen_iOS7Tests;
+			sourceTree = "<group>";
+		};
+		A9731D0818DE473F009A4A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9731D0918DE473F009A4A83 /* PinlockScreen_iOS7Tests-Info.plist */,
+				A9731D0A18DE473F009A4A83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9731CDE18DE473F009A4A83 /* PinlockScreen_iOS7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9731D1118DE473F009A4A83 /* Build configuration list for PBXNativeTarget "PinlockScreen_iOS7" */;
+			buildPhases = (
+				A9731CDB18DE473F009A4A83 /* Sources */,
+				A9731CDC18DE473F009A4A83 /* Frameworks */,
+				A9731CDD18DE473F009A4A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinlockScreen_iOS7;
+			productName = PinlockScreen_iOS7;
+			productReference = A9731CDF18DE473F009A4A83 /* PinlockScreen_iOS7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9731CFF18DE473F009A4A83 /* PinlockScreen_iOS7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9731D1418DE473F009A4A83 /* Build configuration list for PBXNativeTarget "PinlockScreen_iOS7Tests" */;
+			buildPhases = (
+				A9731CFC18DE473F009A4A83 /* Sources */,
+				A9731CFD18DE473F009A4A83 /* Frameworks */,
+				A9731CFE18DE473F009A4A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9731D0618DE473F009A4A83 /* PBXTargetDependency */,
+			);
+			name = PinlockScreen_iOS7Tests;
+			productName = PinlockScreen_iOS7Tests;
+			productReference = A9731D0018DE473F009A4A83 /* PinlockScreen_iOS7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9731CD718DE473F009A4A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = pl7;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BroadPocket;
+				TargetAttributes = {
+					A9731CFF18DE473F009A4A83 = {
+						TestTargetID = A9731CDE18DE473F009A4A83;
+					};
+				};
+			};
+			buildConfigurationList = A9731CDA18DE473F009A4A83 /* Build configuration list for PBXProject "PinlockScreen_iOS7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9731CD618DE473F009A4A83;
+			productRefGroup = A9731CE018DE473F009A4A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9731CDE18DE473F009A4A83 /* PinlockScreen_iOS7 */,
+				A9731CFF18DE473F009A4A83 /* PinlockScreen_iOS7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9731CDD18DE473F009A4A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731CFB18DE473F009A4A83 /* Images.xcassets in Resources */,
+				A9731CED18DE473F009A4A83 /* InfoPlist.strings in Resources */,
+				A9731CF618DE473F009A4A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9731CFE18DE473F009A4A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731D0C18DE473F009A4A83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9731CDB18DE473F009A4A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731CF318DE473F009A4A83 /* pl7AppDelegate.m in Sources */,
+				A9731CF918DE473F009A4A83 /* pl7ViewController.m in Sources */,
+				A9731CEF18DE473F009A4A83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9731CFC18DE473F009A4A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9731D0E18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9731D0618DE473F009A4A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9731CDE18DE473F009A4A83 /* PinlockScreen_iOS7 */;
+			targetProxy = A9731D0518DE473F009A4A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9731CEB18DE473F009A4A83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9731CEC18DE473F009A4A83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9731CF418DE473F009A4A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9731CF518DE473F009A4A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9731D0A18DE473F009A4A83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9731D0B18DE473F009A4A83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9731D0F18DE473F009A4A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A9731D1018DE473F009A4A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9731D1218DE473F009A4A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinlockScreen_iOS7/PinlockScreen_iOS7-Prefix.pch";
+				INFOPLIST_FILE = "PinlockScreen_iOS7/PinlockScreen_iOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9731D1318DE473F009A4A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinlockScreen_iOS7/PinlockScreen_iOS7-Prefix.pch";
+				INFOPLIST_FILE = "PinlockScreen_iOS7/PinlockScreen_iOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9731D1518DE473F009A4A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinlockScreen_iOS7.app/PinlockScreen_iOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinlockScreen_iOS7/PinlockScreen_iOS7-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PinlockScreen_iOS7Tests/PinlockScreen_iOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9731D1618DE473F009A4A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PinlockScreen_iOS7.app/PinlockScreen_iOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinlockScreen_iOS7/PinlockScreen_iOS7-Prefix.pch";
+				INFOPLIST_FILE = "PinlockScreen_iOS7Tests/PinlockScreen_iOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9731CDA18DE473F009A4A83 /* Build configuration list for PBXProject "PinlockScreen_iOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9731D0F18DE473F009A4A83 /* Debug */,
+				A9731D1018DE473F009A4A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9731D1118DE473F009A4A83 /* Build configuration list for PBXNativeTarget "PinlockScreen_iOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9731D1218DE473F009A4A83 /* Debug */,
+				A9731D1318DE473F009A4A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9731D1418DE473F009A4A83 /* Build configuration list for PBXNativeTarget "PinlockScreen_iOS7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9731D1518DE473F009A4A83 /* Debug */,
+				A9731D1618DE473F009A4A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9731CD718DE473F009A4A83 /* Project object */;
+}
