@@ -11,5 +11,6 @@
 @interface pl7AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSString *pin;
 
 @end

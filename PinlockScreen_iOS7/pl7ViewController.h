@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, statePinEntry) {
+    stateSetPin   = 0,  //default
+    stateConfirmPin = 1,
+    stateUnlockApp = 2
+};
+
 @interface pl7ViewController : UIViewController
+
+@property (assign, nonatomic) statePinEntry pinEntryState;
 
 @end

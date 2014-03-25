@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9025C9718DE4D5300CB97BA /* background_blue_blur.png in Resources */ = {isa = PBXBuildFile; fileRef = A9025C9618DE4D5300CB97BA /* background_blue_blur.png */; };
+		A9025C9A18DE51CD00CB97BA /* pl7NumberPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9025C9918DE51CD00CB97BA /* pl7NumberPadButton.m */; };
 		A9731CE318DE473F009A4A83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE218DE473F009A4A83 /* Foundation.framework */; };
 		A9731CE518DE473F009A4A83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE418DE473F009A4A83 /* CoreGraphics.framework */; };
 		A9731CE718DE473F009A4A83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE618DE473F009A4A83 /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		A9731D0418DE473F009A4A83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9731CE618DE473F009A4A83 /* UIKit.framework */; };
 		A9731D0C18DE473F009A4A83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9731D0A18DE473F009A4A83 /* InfoPlist.strings */; };
 		A9731D0E18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9731D0D18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m */; };
+		A985F81E18DF41D600AF2571 /* pl7DataEntryFeedbackView.m in Sources */ = {isa = PBXBuildFile; fileRef = A985F81D18DF41D600AF2571 /* pl7DataEntryFeedbackView.m */; };
+		A985F82118DF578B00AF2571 /* pl7InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A985F82018DF578B00AF2571 /* pl7InitialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9025C9618DE4D5300CB97BA /* background_blue_blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_blue_blur.png; sourceTree = "<group>"; };
+		A9025C9818DE51CD00CB97BA /* pl7NumberPadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pl7NumberPadButton.h; sourceTree = "<group>"; };
+		A9025C9918DE51CD00CB97BA /* pl7NumberPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pl7NumberPadButton.m; sourceTree = "<group>"; };
 		A9731CDF18DE473F009A4A83 /* PinlockScreen_iOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinlockScreen_iOS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9731CE218DE473F009A4A83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9731CE418DE473F009A4A83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,10 @@
 		A9731D0918DE473F009A4A83 /* PinlockScreen_iOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinlockScreen_iOS7Tests-Info.plist"; sourceTree = "<group>"; };
 		A9731D0B18DE473F009A4A83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9731D0D18DE473F009A4A83 /* PinlockScreen_iOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinlockScreen_iOS7Tests.m; sourceTree = "<group>"; };
+		A985F81C18DF41D600AF2571 /* pl7DataEntryFeedbackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pl7DataEntryFeedbackView.h; sourceTree = "<group>"; };
+		A985F81D18DF41D600AF2571 /* pl7DataEntryFeedbackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pl7DataEntryFeedbackView.m; sourceTree = "<group>"; };
+		A985F81F18DF578B00AF2571 /* pl7InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pl7InitialViewController.h; sourceTree = "<group>"; };
+		A985F82018DF578B00AF2571 /* pl7InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pl7InitialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +123,18 @@
 		A9731CE818DE473F009A4A83 /* PinlockScreen_iOS7 */ = {
 			isa = PBXGroup;
 			children = (
+				A9025C9618DE4D5300CB97BA /* background_blue_blur.png */,
 				A9731CF118DE473F009A4A83 /* pl7AppDelegate.h */,
 				A9731CF218DE473F009A4A83 /* pl7AppDelegate.m */,
 				A9731CF418DE473F009A4A83 /* Main.storyboard */,
+				A985F81F18DF578B00AF2571 /* pl7InitialViewController.h */,
+				A985F82018DF578B00AF2571 /* pl7InitialViewController.m */,
 				A9731CF718DE473F009A4A83 /* pl7ViewController.h */,
 				A9731CF818DE473F009A4A83 /* pl7ViewController.m */,
+				A9025C9818DE51CD00CB97BA /* pl7NumberPadButton.h */,
+				A9025C9918DE51CD00CB97BA /* pl7NumberPadButton.m */,
+				A985F81C18DF41D600AF2571 /* pl7DataEntryFeedbackView.h */,
+				A985F81D18DF41D600AF2571 /* pl7DataEntryFeedbackView.m */,
 				A9731CFA18DE473F009A4A83 /* Images.xcassets */,
 				A9731CE918DE473F009A4A83 /* Supporting Files */,
 			);
@@ -231,6 +249,7 @@
 			files = (
 				A9731CFB18DE473F009A4A83 /* Images.xcassets in Resources */,
 				A9731CED18DE473F009A4A83 /* InfoPlist.strings in Resources */,
+				A9025C9718DE4D5300CB97BA /* background_blue_blur.png in Resources */,
 				A9731CF618DE473F009A4A83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A985F81E18DF41D600AF2571 /* pl7DataEntryFeedbackView.m in Sources */,
+				A9025C9A18DE51CD00CB97BA /* pl7NumberPadButton.m in Sources */,
 				A9731CF318DE473F009A4A83 /* pl7AppDelegate.m in Sources */,
+				A985F82118DF578B00AF2571 /* pl7InitialViewController.m in Sources */,
 				A9731CF918DE473F009A4A83 /* pl7ViewController.m in Sources */,
 				A9731CEF18DE473F009A4A83 /* main.m in Sources */,
 			);
@@ -459,6 +481,7 @@
 				A9731D1318DE473F009A4A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9731D1418DE473F009A4A83 /* Build configuration list for PBXNativeTarget "PinlockScreen_iOS7Tests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +490,7 @@
 				A9731D1618DE473F009A4A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

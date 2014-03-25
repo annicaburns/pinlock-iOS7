@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AAECB258-97B6-428A-8E93-430C8AA174FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PinlockScreen_iOS7</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>150A4FA5-EABF-44AA-B3FF-141B3D1EA492</key>
+		<string>https://github.com/annicaburns/pinlock-iOS7.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PinlockScreen_iOS7.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>150A4FA5-EABF-44AA-B3FF-141B3D1EA492</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/annicaburns/pinlock-iOS7.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>150A4FA5-EABF-44AA-B3FF-141B3D1EA492</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>150A4FA5-EABF-44AA-B3FF-141B3D1EA492</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PinlockScreen_iOS7</string>
+		</dict>
+	</array>
+</dict>
+</plist>
